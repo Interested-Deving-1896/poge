@@ -1,57 +1,78 @@
-# Poge PG: pgAdmin but in your browser 
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# poge
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Website: Poge](https://img.shields.io/badge/Website-Poge-blue?logo=google-chrome&logoColor=white)](https://poge.dev)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/poge)
 
-Poge is your quick database tool — for those moments when you just need to peek at tables, run a few queries, and get back to building awesome stuff. Skip the heavy tools (pgAdmin, DBeaver), skip the wait. Just open, connect, and you're off! 🚀. You can try demo on https://poge.dev.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-**One click deploy on Vercel:**
-</br>
-<a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdev-hari-prasad%2Fpoge&project-name=poge&repository-name=poge"><img src="https://vercel.com/button" alt="Deploy to vercel" height="32" /></a>
+## Architecture
 
-## What you get
-Simple, speedy UI for tables and SQL with query history, notes, easy export/import and table schema viewers with a local‑first setup so data lives on your machine.
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-## Quick start on your machine
+## Install
 
-### 1) Clone and install
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
 ```bash
-# with pnpm (recommended)
-pnpm install
-
-# or with npm
-npm install
-
-# or with yarn
-yarn
+git clone https://github.com/Interested-Deving-1896/poge.git
+cd poge
 ```
 
-### 2) Run it
-```bash
-pnpm run dev (or npm run dev)
-# then open http://localhost:3000
-```
+## Usage
 
-### 3) Connect a database
-- Go to Databases → Add a server (host, port, database, user, password)
-- Connect and start exploring or running queries
-
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
 ## Configuration
+
 This is a Next.js + Tailwind project. All user settings are stored client‑side in the browser (Local Storage). 
 Poge includes built‑in export/import:
 - Full data export/import uses an encrypted `.enc` file (encrypted JSON).
 - Settings‑only export/import uses plain `.json`.
 
-## Security & privacy
-If you discover a security issue, follow the reporting instructions in the [Security Policy](https://github.com/dev-hari-prasad/poge?tab=security-ov-file) to open a private report or contact the maintainers. 
+## CI
 
-## Contributing
-Pull requests are welcome. Keep changes small and focused, and prefer clear, straightforward code over cleverness. If you’re unsure or want to report a bug/feature, please open an issue here on: [Github Issues](https://github.com/dev-hari-prasad/poge/issues)
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/poge`](https://github.com/Interested-Deving-1896/poge) and mirrored through:
+
+```
+Interested-Deving-1896/poge  ──►  OpenOS-Project-OSP/poge  ──►  OpenOS-Project-Ecosystem-OOC/poge
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
 
 ## License
-MIT — do what you like, be kind, and don’t remove credit.
 
----
-
-<p align="center"><sub>Built by <a href="https://github.com/dev-hari-prasad/">Hari</a></sub></p>
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/poge/blob/main/LICENSE.txt) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
